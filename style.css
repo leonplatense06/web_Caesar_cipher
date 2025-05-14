@@ -27,6 +27,7 @@ body {
     height: 90px;
     width: 60%;
     border-radius: 0px;
+    flex-direction: column;
 }
 
 #encode-button {
@@ -41,6 +42,24 @@ body {
     font-size: 10px;
     color: rgb(34, 36, 48);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#result {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.653);
+    font-size: 16px;
+}
+
+#input {
+    background-color: rgb(41, 43, 58);
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 98%;
+    color: rgb(70, 195, 124);
+    margin-top: 30px;
+    margin-left: 2px;
 }
 
 #encode-button:hover{
