@@ -19,6 +19,14 @@ body {
     display: flex;
 }
 
+#cipher-title {
+    position: absolute;
+    margin-right: 190px;
+    margin-top: -2px;
+    color: rgba(255, 255, 255, 0.653);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #display {
     background-color: rgb(41, 43, 58);
     display: flex;
