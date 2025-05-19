@@ -39,6 +39,20 @@ body {
     box-sizing: border-box;
 }
 
+@media (max-width: 600px){
+    #display {
+        background-color: rgb(41, 43, 58);
+        display: flex;
+        position: absolute;
+        margin-top: 100px;
+        height: 90px;
+        width: 98%;
+        border-radius: 0px;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+}
+
 #result {
     margin-top: 5px;
     margin-left: 5px;
